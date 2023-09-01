@@ -13,12 +13,13 @@ func ConvertiraEntero(cadena string) (int, string) {
 	var resultado string
 
 	if numero > 100 {
-		resultado = "Es mayor a 100"
+		fmt.Println(numero, "Es mayor a 100")
 	} else {
-		resultado = "Es menor a 100"
+		fmt.Println(numero, "Es menor a 100")
 	}
 
 	fmt.Println(resultado)
 
 	return numero, resultado
+
 }

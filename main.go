@@ -1,11 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/DanielaGrosclaude/gonuts/ejercicios"
-	//"runtime"
-)
+import "github.com/DanielaGrosclaude/gonuts/ejercicios"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1213)
@@ -27,12 +22,19 @@ func main() {
 		fmt.Println("Esto es Darwin.")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 
 	cadenaNumero := "56"
 	numero, resultado := ejercicios.ConvertiraEntero(cadenaNumero)
 
 	fmt.Println("Número:", numero)
 	fmt.Println("Resultado:", resultado)
+	*/
+
+	//teclado.IngresoNumeros()
+
+	//iteraciones.Iterar()
+
+	ejercicios.TablaNum()
 
 }
